@@ -1,0 +1,39 @@
+.Users {
+    display: flex;
+    width: 30%;
+    justify-content: flex-start;
+    flex-direction: column;
+    opacity: 0.9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    background: rgba(255,255,255,0.85);
+}
+
+.UsersOnline {
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(255,255,255,0.90);
+    color: #333;
+}
+.UsersOnline span {
+    font-size: 1.5em;
+}
+
+.UsersList {
+    margin: 0;
+    padding: 0;
+}
+
+.UserItem {
+    list-style: none;
+    padding: 20px;
+    margin: 0 0 0 20px;
+    font-weight: bold;
+}
+.UserItem span {
+    margin-right: 20px;
+    font-size: 1.3em;
+    color: #333;
+
+}

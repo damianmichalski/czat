@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 97vh;
+    background: url('https://images.pexels.com/photos/1243365/pexels-photo-1243365.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.AppHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.AppTitle {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    background: rgba(255,255,255,0.95);
+}
+
+.AppRoom {
+    display: flex;
+    width: 70%;
+    font-size: 1.5em;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    background: rgba(255,255,255,0.85);
+}
+
+.AppBody {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.MessageWrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
