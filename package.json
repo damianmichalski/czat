@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --env production",
     "start-frontend": "webpack-dev-server --hot --env development",
-    "start-backend": "node index.js",
-    "start": "npm run start-frontend && start-backend"
+    "start-backend": "nodemon index.js",
+    "start": "npm run start-frontend && npm run start-backend"
   },
   "author": "",
   "license": "ISC",
