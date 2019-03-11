@@ -8,7 +8,7 @@
     "build": "webpack --env production",
     "start-backend": "nodemon index.js",
     "start-frontend": "webpack-dev-server --hot --env development",
-    "start": "npm run start-frontend && npm run start-backend"
+    "start": "npm run start-backend | npm run start-frontend"
   },
   "author": "",
   "license": "ISC",
@@ -27,13 +27,14 @@
     "react-dom": "^16.7.0",
     "react-hot-loader": "^4.6.3",
     "style-loader": "^0.23.1",
-    "webpack": "^4.28.2",
+    "webpack": "^4.29.6",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
     "express": "^4.16.4",
     "nodemon": "^1.18.10",
+    "npm-run-all": "^4.1.5",
     "socket.io": "^2.2.0",
     "sudoku-umd": "^1.0.1",
     "uuid": "^3.3.2"
